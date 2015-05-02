@@ -1,0 +1,126 @@
+﻿/* @override 
+	http://samuelgarneau.com/slidebox.css
+	http://samuelgarneau.com/lab/validator/slidebox.css
+	http://samuelgarneau.com/lab/slidebox.css
+*/
+
+/*body {
+	margin: 0;
+	padding: 75px 0 0;
+}*/
+
+.slide-panel {
+	position: absolute;
+	z-index: 25;
+}
+
+.bottom {
+	bottom: 0;
+}
+
+.top {
+	top: 0;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	overflow: hidden;
+	text-align: left;
+	background-color: #343434;
+	height: 0;
+	width: 100%;
+	color: #fff;
+}
+
+.slide-button {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 150px;
+	z-index: 20;
+	cursor: pointer;
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.slide-button:hover {
+	color: #9f9d8e;
+}
+
+/* @override http://samuelgarneau.com/slidebox.css */
+
+.slide-button {
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	color: #4c5153;
+	background-color: #333;
+}
+
+.slide-button:hover {
+	color: #9f9d8e;
+}
+
+#workspace {
+	padding-top: 50px;
+}
+
+#list-1 {
+	display: inline;
+	float: left;
+}
+
+#list-2 {
+	display: inline;
+	float: left;
+}
+
+#list-3 {
+	float: left;
+}
+
+#list-4 {
+	float: left;
+}
+
+ul.list {
+	line-height: 20px;
+	list-style-type: none;
+	width: 20%;
+	font-size: 0.85em;
+}
+
+ul.list li {
+	border-bottom: 1px solid rgba(73,81,84,0.49);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	cursor: pointer;
+}
+
+ul.list li:hover {
+	color: #9f9d8e;
+}
+
+ul.list li.header {
+	color: #e56f03;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+	font-variant: small-caps;
+	font-size: 1.7em;
+	margin-top: 10px;
+	cursor: text;
+}
+
+ul.list li.header:hover {
+	font-size: 1.7em;
+}
+
+a {
+	background-color: #97ad7e;
+	text-decoration: none;
+	color: #fff;
+	padding: 3px;
+}

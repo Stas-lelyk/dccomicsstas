@@ -1,0 +1,70 @@
+.bottom2, .bgHeader, .bgHeader, .dom, .bgfooter, .bgfooter2, .right, .left, .lineProject, .line, .bottom3{
+	background: url(sprites.png) no-repeat;
+}
+
+.bottom2{
+	background-position: -5px -5px ;
+	width: 14px;
+	height: 38px;
+}
+
+.bgHeader{
+	background-position: -52px -108px ;
+	width: 19px;
+	height: 19px;
+}
+
+.bgHeader{
+	background-position: -71px -71px ;
+	width: 19px;
+	height: 19px;
+}
+
+.dom{
+	background-position: -49px -22px ;
+	width: 46px;
+	height: 47px;
+}
+
+.bgfooter{
+	background-position: -98px -3px ;
+	width: 9px;
+	height: 81px;
+}
+
+.bgfooter2{
+	background-position: -48px -72px ;
+	width: 19px;
+	height: 19px;
+}
+
+.right{
+	background-position: -29px -58px ;
+	width: 19px;
+	height: 65px;
+}
+
+.left{
+	background-position: -4px -56px ;
+	width: 19px;
+	height: 65px;
+}
+
+.lineProject{
+	background-position: -45px -98px ;
+	width: 52px;
+	height: 4px;
+}
+
+.line{
+	background-position: -56px -14px ;
+	width: 30px;
+	height: 1px;
+}
+
+.bottom3{
+	background-position: -24px -5px ;
+	width: 18px;
+	height: 42px;
+}
+
